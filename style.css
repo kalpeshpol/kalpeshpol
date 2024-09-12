@@ -1,0 +1,136 @@
+.navbar-collapse {
+    flex-grow: initial;
+}
+
+.navbar-brand {
+    font-size: 2.15rem;
+}
+
+.custom-bg-dark {
+    background-color: rgba(0, 0, 0, 1) !important;
+    padding-top: 1rem !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffffb6;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+
+.nav-link a.active {
+    border-bottom: 1px solid #fff;
+}
+.main-section-wrapper {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.home-section {
+    padding: 4rem 0;
+}
+
+.home-section-title {
+    font-size: 46px;    
+}
+
+.horizontal-seperator {
+    border-top: 2px solid #fff;
+    width: 20%;
+}
+
+.home-desc {
+    font-size: 22px;
+    color: (255, 255, 255, 1)
+}
+
+
+.client-section {
+    padding: 4rem 0;
+}
+
+.client-img {
+    margin-bottom: 20px;
+}
+
+.cust-bg-section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 4rem 4rem 15rem;
+    margin-bottom: 25px;
+}
+
+.cust-bg-section-5 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 4rem 4rem 15rem;
+}
+
+.bg-logo-image {
+    padding-bottom: 5%;
+}
+
+.bgs-title {
+    font-size: 42px;
+}
+
+.bgs-desc {
+    font-size: 16px;
+    font-weight: 400;
+    width: 550px;
+}
+
+.custom-btns {
+ border: 1px solid #fff !important;
+ color: #fff !important;
+ padding: 10px 25px !important;
+ border-radius: 0px !important;
+}
+
+.cust-menu-btns {
+    background-color: rgba(214, 136, 27, 1) !important;
+    border: 1px solid rgba(214, 136, 27, 1) !important;
+ color: #fff !important;
+ padding: 10px 25px !important;
+}
+
+.custom-container {
+    max-width: 95% !important;
+}
+
+
+.custom-footer {
+    background-color: rgba(0, 0, 0, 1);
+    padding: 3rem 0;
+}
+
+.menu-footer-menu-container ul 
+{
+   padding-left: 0px !important;
+}
+
+.menu-footer-menu-container ul li 
+{
+   list-style: none;
+   margin-bottom: 0.6rem;
+}
+
+
+.menu-footer-menu-container ul li a 
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 2.5rem;
+        padding-left: 2.5rem;
+    }
+}
